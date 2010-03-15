@@ -20,13 +20,3 @@ config.action_controller.allow_forgery_protection    = false
 # The :test delivery method accumulates sent emails in the
 # ActionMailer::Base.deliveries array.
 config.action_mailer.delivery_method = :test
-
-config.gem "rspec", :lib => false, :version => ">= 1.2.6"
-config.gem "rspec-rails", :lib => false, :version => ">= 1.2.6"
-config.gem "cucumber", :lib => false, :version => ">= 0.3.7"
-config.gem "webrat", :lib => false
-config.gem "nokogiri", :lib => false
-config.gem "thoughtbot-factory_girl", :lib => 'factory_girl', :source => 'http://gems.github.com'
-config.gem "rr", :lib => false
-config.gem 'bmabey-email_spec', :lib => 'email_spec'
-config.gem 'timcharper-spork', :lib => false
