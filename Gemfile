@@ -10,7 +10,7 @@ gem 'hoptoad_notifier'
 
 group :test do
   gem 'rspec-rails'
-  gem 'cucumber'
+  gem 'cucumber-rails'
   gem 'webrat'
   gem 'rr'
   gem 'factory_girl'
